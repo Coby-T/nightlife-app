@@ -1,0 +1,23 @@
+{
+  "name": "nightlife-social-app",
+  "version": "1.0.0",
+  "description": "An app for users to coordinate evening-out activities (bars)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coby-T/nightlife-app.git"
+  },
+  "keywords": [
+    "nightlife"
+  ],
+  "author": "Coby Tao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coby-T/nightlife-app/issues"
+  },
+  "homepage": "https://github.com/Coby-T/nightlife-app#readme"
+}
