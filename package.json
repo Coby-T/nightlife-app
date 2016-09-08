@@ -19,5 +19,19 @@
   "bugs": {
     "url": "https://github.com/Coby-T/nightlife-app/issues"
   },
-  "homepage": "https://github.com/Coby-T/nightlife-app#readme"
+  "homepage": "https://github.com/Coby-T/nightlife-app#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "ip": "^1.1.3",
+    "mongoose": "^4.5.10",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-twitter": "^1.0.4",
+    "path": "^0.12.7",
+    "yelp": "^1.0.1"
+  }
 }
