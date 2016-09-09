@@ -38,7 +38,6 @@ angular.module('nightlifeApp',[]).controller("mainController", function($scope, 
                 method: 'GET',
                 url: '/api/goinglist/' + state
             }).then(function (res2) {
-                console.log(res2)
                 for (var i = 0; i < res2.data.length; i++ ) {
                     if(lookup.indexOf(res2.data[i].barName)) {
                         $scope.barlist[i].going = res2.data[i].goingNumber;
@@ -68,11 +67,9 @@ angular.module('nightlifeApp',[]).controller("mainController", function($scope, 
             });
             if ($scope.barlist[index].userGoing) {
                 $scope.barlist[index].going--;
-                console.log($scope.barlist[index])
             }
             else {
                 $scope.barlist[index].going++;
-                console.log($scope.barlist[index])
             }
             $scope.barlist[index].userGoing = !$scope.barlist[index].userGoing;
         }
