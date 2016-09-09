@@ -22,7 +22,7 @@ require('./app/config/passportTwitter') (passport);
 
 mongoose.connect(process.env.MONGODB_URI);
 
-app.use('/public', express.static(path.resolve(__dirname, '/public')));
+app.use('/public', express.static(__dirname + '/public'));
 
 app.use(session({
     secret: process.env.SESSION_SECRET || 'SoSecret',
