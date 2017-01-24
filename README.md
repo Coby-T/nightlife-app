@@ -1,6 +1,6 @@
 #Nightlife App
 
-This is design help people coordinate a night out as part of the freeCodeCamp curriculum.
+This app is designed help people coordinate a night out as part of the freeCodeCamp curriculum.
 
 ### User Stories
 * User Story: As an unauthenticated user, I can view all bars in my area.
